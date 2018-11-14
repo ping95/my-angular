@@ -5,14 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { SliceText } from './courses/slice.pipe';
-import { TestPipePipe } from './test-pipe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    SliceText,
-    TestPipePipe
+    SliceText
   ],
   imports: [
     BrowserModule,
