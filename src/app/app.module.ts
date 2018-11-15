@@ -5,16 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { SliceText } from './courses/slice.pipe';
+import { PostsComponent } from './posts/posts.component';
+
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    SliceText
+    SliceText,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
