@@ -8,13 +8,23 @@ import { SliceText } from './courses/slice.pipe';
 import { PostsComponent } from './posts/posts.component';
 
 import {HttpModule} from '@angular/http';
+import { AngularBasicComponent } from './courses/angular-basic/angular-basic.component';
+import { TypscriptBasicComponent } from './courses/typscript-basic/typscript-basic.component';
+import { IonicComponent } from './courses/ionic/ionic.component';
 
+import { DarthComponent } from './starwars/darth';
+import { LukeComponent } from './starwars/luke';
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     SliceText,
-    PostsComponent
+    PostsComponent,
+    AngularBasicComponent,
+    TypscriptBasicComponent,
+    IonicComponent,
+    DarthComponent,
+    LukeComponent
   ],
   imports: [
     BrowserModule,
